@@ -1,0 +1,183 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Nunito Sans", sans-serif;
+  height: 100vh;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+section {
+  margin: 0 auto;
+  padding: 5.4rem 0;
+  background-color: rgba(188, 132, 244, 0.195);
+}
+.nav-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  height: 6.4rem;
+  padding: 1.8rem 3.2rem;
+  background-color: rgba(188, 132, 244, 0.195);
+}
+
+.navigation ul {
+  display: flex;
+  align-items: center;
+  gap: 1.8rem;
+}
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.nav-btn {
+  border: none;
+  background: none;
+  cursor: pointer;
+  display: none;
+  transition: all 0.75s linear;
+}
+.nav-btn .close-btn {
+  display: none;
+}
+
+.nav-link {
+  list-style: none;
+  color: rgb(93, 33, 139);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.6rem;
+  transition: all 0.15s;
+  cursor: pointer;
+}
+.nav-link:hover {
+  color: #434245;
+}
+
+#join-btn {
+  display: inline-block;
+  padding: 1.4rem 1.6rem;
+  border: none;
+  background-color: #320e52;
+  color: #fff;
+  border-radius: 3px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  letter-spacing: 0.75px;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+#join-btn:hover {
+  opacity: 80%;
+}
+
+.main-heading {
+  max-width: 130rem;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  justify-items: center;
+  align-items: baseline;
+  color: #320e52;
+  gap: 3.2rem;
+  padding: 0 4.8rem;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.main-heading-text {
+  padding: 2.8rem;
+}
+.main-heading-img {
+  padding: 2.4rem;
+}
+.main-heading-img {
+  align-self: start;
+}
+.heading-img {
+  width: 100%;
+}
+
+#tag {
+  display: inline-block;
+  font-size: 1.2rem;
+  background-color: #320e52;
+  color: #e3c9fa;
+  font-weight: 400;
+  padding: 0.8rem 2.2rem;
+  border-radius: 2.4rem;
+  margin-bottom: 2.2rem;
+  letter-spacing: 0.85px;
+}
+
+#learn-more:link,
+#learn-more:active,
+#learn-more:hover,
+#learn-more:visited {
+  color: #e3c9fa;
+  font-weight: 700;
+}
+.heading {
+  font-size: 5.2rem;
+  line-height: 1.3;
+  margin-bottom: 0.8rem;
+}
+
+.main-heading p {
+  font-size: 1.4rem;
+  letter-spacing: 0.75px;
+  line-height: 1.8;
+  color: #4d4c4e;
+}
+
+.input-box {
+  margin-top: 1.2rem;
+  display: flex;
+  gap: 1.2rem;
+}
+.inpt-field {
+  width: 26rem;
+  border: 1px solid rgb(216, 203, 230);
+  padding: 1.4rem;
+  color: #1e0238;
+}
+
+.inpt-field::placeholder {
+  color: #c0c0c0;
+  font-size: 1.2rem;
+}
+.inpt-field:focus {
+  outline: 2px solid #320e52;
+}
+
+.cmp-logo {
+  width: 4.2rem;
+  height: 4.2rem;
+}
+
+.used-by-cmp {
+  margin-top: 72px;
+}
+.used-by-cmp p {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #434245;
+  margin-bottom: 1.2rem;
+}
+.cmp-logos-box {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
